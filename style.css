@@ -15404,7 +15404,6 @@ figcaption {
 .section-2 {
 	position: static;
 	padding-top: 60px;
-	padding-bottom: 60px
 }
 
 .section-3 {
@@ -16065,6 +16064,9 @@ figcaption {
 		-ms-flex-pack: center;
 		justify-content: center;
 		font-size: 18px
+	}
+	.qr_lecode{
+		display: none;
 	}
 	.button-primary.header-button.mobile:hover {
 		-webkit-transform: scale3d(.98, .98, 1.01);
@@ -19058,7 +19060,7 @@ figcaption {
 		transform: scale3d(.98, .98, 1.01)
 	}
 	.button-primary._2-buttons {
-		margin-right: 0px
+		margin-right: 22px
 	}
 	.button-primary._2-buttons.integration {
 		padding-right: 30px;
@@ -25298,4 +25300,10 @@ figcaption {
 	width: 24px;
 	height: 24px;
 	margin-left: 4px;
+}
+
+.qr_lecode{
+	width: 200px;
+	align-items: center;
+	margin-top: 40px;
 }
